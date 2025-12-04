@@ -4,7 +4,7 @@
   "description": "[![Actions Status](https://github.com/St-St-T/fullstack-javascript-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/St-St-T/fullstack-javascript-project-46/actions)",
   "main": "bin/gendiff.js",
   "type": "module",
-  "bin":{
+  "bin": {
     "gendiff": "bin/gendiff.js"
   },
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^14.0.2"
+    "commander": "^14.0.2",
+    "lodash-es": "^4.17.21"
   }
 }
