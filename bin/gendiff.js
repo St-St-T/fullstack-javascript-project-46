@@ -19,8 +19,8 @@ program
 program.parse();
 
 
-function genDiff(filepath1, filepath2){
-  
+export default function genDiff(filepath1, filepath2){
+
     var files;
 
     if (!fs.existsSync(filepath1) && !fs.existsSync(filepath2)){
